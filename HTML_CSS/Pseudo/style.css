@@ -1,0 +1,30 @@
+* {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes sim {
+    from {
+        transform: translateX(-1200px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+#btn {
+    border: none;
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 10px;
+    animation-name: sim;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+    
+
+}

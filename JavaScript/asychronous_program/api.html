@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>API Data Display</title>
+</head>
+<body>
+  <div id="data-container"></div>
+  <script>
+    const url = "https://your-api-url"; // Replace with the actual API URL
+
+    fetch(url)
+      .then(response => response.json()) // Parse the response as JSON
+      .then(data => {
+        // Process the data here
+        const container = document.getElementById("data-container");
+
+        // Example: Display the first 5 items in a list
+        for (let i = 0; i < 5; i++) {
+          const item = document.createElement("li");
+          item.textContent = data[i].name; // Replace with the actual property name
+          container.appendChild(item);
+        }
+      })
+      .catch(error => {
+        console.error("Error fetching data:", error);
+      });
+  </script>
+</body>
+</html>
