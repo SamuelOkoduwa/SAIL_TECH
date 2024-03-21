@@ -1,0 +1,62 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+	margin: 10%;
+	
+}
+section {
+	width: 40%;
+}
+
+/* Score */
+.score {
+	background-color: rgba(0, 0, 255, 0.781);
+	border-radius: 15px;
+	color: rgb(189, 43, 226);
+	text-align: center;
+}
+
+.percent-score {
+	background-color: rgba(98, 0, 255, 0.781);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	align-items: center;
+	margin-left: 25px;
+	font-size: small;
+}
+h1 {
+	font-size: small;
+	color: rgb(189, 43, 226);
+}
+.percent-score span {
+	font-size: 30px;
+	color: aliceblue;
+}
+.great {
+	font-size: small;
+	color: azure;
+
+}
+p {
+	font-size: x-small;
+	padding: 0 20px 20px;
+
+}
+/* Summary */
+.summary {
+	background-color: rgba(255, 228, 196, 0.137);
+	border: 1px solid;
+	border-radius: 15px;
+	text-align: center;
+}
+.cards {
+	display: flex;
+	gap: 35px;
+	border: 1px solid;
+}
+
