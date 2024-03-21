@@ -1,0 +1,15 @@
+// list storage
+let tasks: string[] = [];
+
+// Function to add task
+function addTask() {
+    const taskInput = document.getElementById('taskInput') as HTMLInputElement;
+    const task = taskInput.value.trim();    //trim removes white spaces
+    if (task !== "") {
+        tasks.push(task);
+        // displayTasks();
+        taskInput.value = "";
+    } else {
+        alert('Please enter a task');
+    }
+}

@@ -1,0 +1,25 @@
+#   How to install Typescript using node module
+**Steps**
+- Install node on the machine
+- initialise with the command in the directory of interest for a base file
+    -   npm init -y
+- Install typescript using the command
+    -   npm i typescript
+- There is the need to have compiler for the make typescript executable with the command, it will create a config.json file
+    -   npx tsc -init 
+-   On the tsconfig.json uncomment the OutDir in line 58 which is where your compiled code will be written. Create a directory build on the line OutDir.
+    -    "outDir": "./build",                /* Specify an output folder for all emitted files. */
+    -   **Note:** The directory can be any name
+-   Create a directory 'build' in the current parent directory
+-   Create a file with a ts extension
+    -   index.ts(sample file)
+- On the package.json, add the code below to the scripts under the tests key 
+  -  "start": "node app.ts"
+- Finally compile the code to JavaScript with the command
+  - npx tsc
+- It creates the js version of the ts version of the file
+- run the command of the file with node then the file
+  - node index.js
+- It look more tedious to run the js file. You can modify the package.json file and modify with the comand below
+  - "start": "node build/app.js"
+- Use npm start to run`

@@ -1,0 +1,13 @@
+section {
+    display: grid;
+    background-color: cyan;
+    padding: 4px;
+    /* grid-template-columns: repeat(6, 2fr); */
+    grid-template-rows: 1fr 2fr  ;
+    gap: 10px;
+}
+div {
+    background-color: crimson;
+    border: 1px solid;
+    padding: 10px;
+}

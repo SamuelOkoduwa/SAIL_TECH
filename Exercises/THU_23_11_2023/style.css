@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    /* background-color: rgb(106, 106, 218); */
+    
+}
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;   
+}
+img {
+    width: 70px;
+}
+.menu {
+    display: flex;
+    gap: 10px;
+}
+span a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: fuchsia;
+}
+main {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: linear-gradient(rgba(106, 106, 218, 0.3), rgba(106, 120, 220, 0.5)), url(./Images/Back-ground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+h1 {
+    padding-top: 150px;
+}
+button {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+button:hover {
+    color: blueviolet;
+}
