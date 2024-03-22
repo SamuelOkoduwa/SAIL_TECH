@@ -1,7 +1,7 @@
 const Test = [
     {
         productName: 'Tiger',
-        productImage: 'scr: https://www.jumia.com.ng/phones-tablets/',
+        productImage: 'https://www.jumia.com.ng/phones-tablets/',
         productPrice: '40,000'
         
     },

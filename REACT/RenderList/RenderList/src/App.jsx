@@ -45,14 +45,16 @@ function App(){
   return(
     <>
       <h1>Product Page</h1>
-      
-        {Test.map((product, index) => {
+      <div style={{display: 'flex', gap:'20px'}}>
+      {Test.map((product, index) => {
           return(
-            <div style={{display: 'flex', gap:'20px'}} key={index} >
+            <div  key={index} >
               <Product  item={product.productName} productImage={product.productImage} price={product.productPrice} />
             </div>
           )
         })}
+      </div>
+        
       
     </>
   )
