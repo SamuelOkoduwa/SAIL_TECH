@@ -1,0 +1,31 @@
+.DisApp {
+	display: flex;
+	margin-top: 300px;
+	justify-content: space-around;
+	/* border: 3px solid red; */
+}
+
+img {
+	width: 300px;
+}
+
+.imageCard {
+    border: 10px solid#ccc;
+    padding: 10px;
+    margin: 10px;
+	/* width: 20%; */
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+	width: 300px;
+	/* text-align: center; */
+}
