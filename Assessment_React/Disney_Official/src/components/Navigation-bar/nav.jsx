@@ -4,7 +4,7 @@ const Nav = () => {
 	return(
 		<div id="nav-bar">
 			<div className="log">
-				<img src="https://lumiere-a.akamaihd.net/v1/images/disney_logo_c77826a6.png?region=0,0,300,150" alt="Disney" height="50"/>
+				<img src="https://lumiere-a.akamaihd.net/v1/images/disney_logo_c77826a6.png?region=0,0,300,150" alt="Disney" height="50" width="50"/>
 			</div>
 
 
@@ -24,7 +24,7 @@ const Nav = () => {
 
 			<div className="search-bar">
 				<input type="text" placeholder='Search within the sit'/>
-				<img src="src\assets\search-icon.png" alt="Search Logo" />
+				<img src="src\assets\search-icon.png" alt="Search Logo" height='50'/>
 			</div>
 		</div>
 
