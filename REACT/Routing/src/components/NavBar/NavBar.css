@@ -1,0 +1,21 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover {
+    color:blanchedalmond;
+}
