@@ -1,0 +1,37 @@
+.logInForm {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+h2{
+	margin-top: 150px;
+
+}
+
+.form {
+	margin-top: 100px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+fieldset { 
+	margin: 0 auto; /*Center the fieldset */
+	padding: 20px; /* Add space around the content of the fieldset */ 
+	text-align: center; /* Center the content inside the fieldset */ 
+	width: max-content;
+	border-radius: 20px;
+  } 
+   
+legend { 
+	margin-bottom: 20px; /* Add space below the legend */ 
+	font-weight: bolder;
+	font-size: larger;
+}
+
+input {
+	padding: 15px 10px;
+	border-radius: 5px;
+}
