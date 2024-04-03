@@ -1,0 +1,77 @@
+
+#form {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 40%;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	width: 100%;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 5%;
+	background-color: #fff;
+	
+}
+
+input {
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: large;
+	font-weight: lighter;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #4267B2 !important;
+	box-sizing: border-box;
+	color: #ccc;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;	
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.log-in {
+	width: 90%;	
+}
+
+.create {
+	margin-left: 20%;
+	background-color: rgba(127, 255, 148, 0.925) !important;
+	color: #fff;
+}
+
+button:hover {
+	background-color: #3B5998;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	text-align: center;
+}
+
+hr {
+	width: 90%;
+	border: none;
+	border-top: 1px solid #ccc;
+	margin: 20px 0;
+}
+
+#celebrity {
+	margin-top: 25px;
+}
+
+#celebrity span {
+	font-weight: bolder;
+}
