@@ -1,4 +1,5 @@
 import Home from "./components/Home/Home"
+import SignUp from "./components/SignUp/SignUp"
 
 function App() {
   
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Home />
+      <SignUp />
     </>
   )
 }

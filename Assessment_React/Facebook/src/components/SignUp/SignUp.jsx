@@ -1,6 +1,6 @@
 const SignUp = ()=> {
 	return (
-		<div>
+		<div id="formSign">
 			<button>Sign Up</button>
 			<form action="">
 				<h1>Sign Up</h1>
@@ -19,6 +19,26 @@ const SignUp = ()=> {
 				<input type="password" name="password" id="password" 
 				placeholder="New password"/>
 				<br />
+
+				<label >Date of birth <span>?</span> </label>
+				<br />
+				<select name="" id="">
+					<option value="">4</option>
+				</select>
+
+				<select name="" id="">
+					<option value="">April</option>
+				</select>
+
+				<select name="" id="">
+					<option value="">2024</option>
+				</select>
+				<br />
+				<br />
+				<label>Gender <span>?</span></label>
+				<br />
+				<input type="radio" name="gender"  />
+				
 
 			</form>
 		</div>
