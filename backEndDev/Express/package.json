@@ -8,7 +8,7 @@
   "main": "expressApp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon expressApp"
+    "start": "nodemon server"
   },
   "keywords": [],
   "author": "",
